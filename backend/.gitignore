@@ -1,0 +1,39 @@
+# Node.js (Backend)
+node_modules/
+.env
+.env.local
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Railway / Render config files (if not to be tracked)
+railway.json
+
+# React (Frontend)
+client/node_modules/
+client/build/
+client/.env
+client/.env.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+logs
+*.log
+
+# Misc
+*.bak
+*.tmp
+
+# Optional: Ignore coverage reports
+coverage/
